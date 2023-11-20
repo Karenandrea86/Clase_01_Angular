@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="login.component.css">
+</head>
+
+<body>
+    <div id="principal">
+        <header>
+            <div id="logo"><img src="ASSETS/img/logo.jpg" width="200" height="120">
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="Registro.html"> <br>Crear cuenta nueva</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="contenedor">
+            <br> <br>
+            <article id="main col">
+                <img src="ASSETS/img/login.png" width="200" height="200">
+                <div class="conteiner1">
+                    <form action="validar.php" method="post" class="formulario">
+                        <label for="correoUsuario"> <b> Usuario </b> </label>
+                        <input type="text" placeholder="Digite el nombre de usuario" name="correoUsuario" required>
+                        <label for="passwordUsuario"> <b> Contraseña </b> </label>
+                        <input type="password" placeholder="Contraseña" name="passwordUsuario" required>
+                        <br>
+                        <div class="message">
+                            <button class="cancelbtn" name="btningresar" class="btn" type="submit"
+                                value="Ingresar">Ingresar</button>
+                            <button type="button" align="center" class="cancelbtn"> Cancelar</button><br>
+                        </div><br>
+                        <br>
+                        <p class="spam1"> Olvido su contraseña? <span class="spam"><button> Click Aquí
+                                </button></span></p>
+                        <footer>
+                            <b> INFORMACION DEL CONTACTO </b>
+                            <p> Direccion: Cra 78 #9-58, Bogota-Castilla<br> Telefono:3103131956
+                                <br>
+                                <b>copyright &copy; 2022-Bogotá</b>
+                            </p>
+                        </footer>

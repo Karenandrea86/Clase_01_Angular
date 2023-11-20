@@ -1,0 +1,208 @@
+#principal{
+    width:1330px;
+    height:150px;
+    border:1px solid #FF00FF;
+    margin:auto;
+    background: #F8E0F7;
+    }
+    
+    header{
+      
+      width:1330px;
+      height:150px;
+      border:0px solid #FF00FF;
+      max-width: 1200px;
+      margin:auto;
+      overflow: hidden;
+    }
+    #logo{
+      float:left;
+    
+    }
+    .menu{
+      width: 950px;
+      height: 50px;
+      border: 0px solid #FF00FF;
+      float:right;
+      margin-top:45px;
+      z-index:1;
+    }
+    
+    .menu li:hover{
+      background-color:#F8E0F7;
+      border-radius: 60px;
+    
+    }
+    .menu ul li{
+      list-style: none;
+      float:right;
+    }
+    .menu ul li a{
+      text-decoration: none;
+      padding: 12px 17px;
+      border:0px solid #FF00FF;
+      font-weight: bold;
+      color:#000000;
+      font: condensed 135% sans-serif;
+    
+    }
+    
+    #MISION {
+      width: 950px;
+      height: 500px;
+      float: left;
+      background: #F8E0F7;
+      margin-top:10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    #MISION h2 {
+      font-size: 40px;
+      text-align:center;
+      line-height: 100px;
+    }
+    #MISION p{
+      font-size: 20px;
+      text-align: justify;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    aside{
+      width: 370px;
+      height: 500px;
+      background: #F8E0F7;
+      margin-top:10px; 
+      float: right; 
+    }
+    aside h2 {
+      font-size: 40px;
+      text-align: center;
+      font-style: sans-serif;
+    }
+    aside img {
+      font-size: 40px;
+      text-align: center;
+      font-style: sans-serif;
+    
+    }
+    footer {
+      background: #F8E0F7;
+      clear :both;
+      font-size: 13px;
+      text-align: center;
+      padding: 3px;
+      font-style: sans-serif;
+    
+    }
+     /*form login*/
+    input[type=text], input[type=password] {
+      width: 20%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border:1px #F8E0F7;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #EC43D0;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 10%;
+      
+    }
+    button:hover {
+      opacity: 0.8;
+      
+    }
+    span.psw {
+      width: 40%;
+      float: right;
+      padding-top: 16px;
+    }
+  
+    /*Nuevo Form Login*/
+  
+  section {
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  
+  .contenedor2 .form1 .form-header1 .form-title1 {
+      font-weight: normal;
+      font-family: sans-serif;
+      text-align: center;
+      padding: 14px 0px;
+      color:  #F33DD4;
+  }
+  
+  .contenedor2 .form1 {
+      background: rgba(0, 0, 0, 0.3);
+      width: 50%;
+      max-width: 350px;
+      margin: auto;
+      padding: 5px 35px;
+      margin-top: 30px;
+      padding-bottom: 30px;
+      border-radius: 3px;
+  }
+  
+  .contenedor2 .form1 .form-label1 {
+      display: block;
+      color:  #F33DD4;
+      font-size: 14px;
+      font-family: sans-serif;
+      position: relative;
+  }
+  
+  .contenedor2 .form1 .form-input1 {
+      background: rgba(0, 0, 0, 0. 1);
+      border: none;
+      outline: none;
+      border-bottom: 2px solid  #F33DD4;
+      width: 100%;
+      padding: 12px margin-bottom 20px;
+      border-radius: 2px;
+      font-size: 12px;
+      color: #141413;
+      font-family: sans-serif;
+  }
+  
+  .contenedor2 .form1 .form-input2 {
+      border-bottom: 2px solid #F8E0F7;
+      width: 100%;
+      padding: 12px font-size 12px;
+      color:#FDE5EF ;
+      font-family: sans-serif;
+  }
+  
+  .contenedor2 .form1 .btn-submit1 {
+      width: 49%;
+      font-family: sans-serif;
+      outline: none;
+      color: #FBFCFC;
+      padding: 15px 0;
+      cursor: pointer;
+      transition: all 05s ease;
+  }
+  
+  .contenedor2 .form1 .cancelbtn1 {
+      width: 49%;
+      font-family: sans-serif;
+      outline: none;
+      color: #FBFCFC;
+      padding: 15px 0;
+      cursor: pointer;
+      transition: all 05s ease;
+  }
+  
+  .contenedor2 .form1 .btn-submit1 .cancelbtn1:hover {
+      background: #FDE5EF;
+  }
+  
+  body {
+      background-color:#FEF8FB;
+  }
